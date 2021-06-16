@@ -1,15 +1,6 @@
 from django.shortcuts import render
 from .models import *
 import pandas as pd
-
-# Create your views here.
-# from sqlalchemy import create_engine
-#
-# #
-# engine = create_engine('postgresql://postgres:root@localhost:5432/root2ai')
-# df = pd.read_csv('data.csv')
-# df.to_sql('app_demo', con=engine, if_exists='append', index=False)
-
 import csv
 import psycopg2
 
